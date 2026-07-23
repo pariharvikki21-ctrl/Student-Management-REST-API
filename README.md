@@ -1,17 +1,21 @@
 # 🎓 Student Management REST API
 
-A REST API built using **Python, Flask, and SQLite** for managing student records.
+A simple and efficient **Student Management REST API** built using **Python, Flask, and SQLite**. This project performs CRUD (Create, Read, Update, Delete) operations on student records and returns responses in JSON format.
+
+---
 
 ## 🚀 Features
 
-- Add Student
-- View Students
-- Update Student
-- Delete Student
-- SQLite Database
-- JSON Response
-- REST API
-- CRUD Operations
+- ➕ Add New Student
+- 📋 View All Students
+- ✏️ Update Student Details
+- 🗑️ Delete Student
+- 💾 SQLite Database Integration
+- 🔄 RESTful API
+- 📦 JSON Response
+- 🧪 API Testing using Postman
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -19,87 +23,196 @@ A REST API built using **Python, Flask, and SQLite** for managing student record
 - Flask
 - SQLite
 - Postman
+- VS Code
+- Git & GitHub
+
+---
 
 ## 📂 Project Structure
 
-Student_Api/
-│── app.py
-│── students.db
-│── requirements.txt
-│── README.md
-│── .gitignore
-
-## 📌 API Endpoints
-
-### GET
-
-```http
-GET /students
+```text
+Student-Management-REST-API/
+│
+├── app.py
+├── students.db
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── screenshots/
+    ├── home.png
+    ├── terminal.png
+    ├── get.png
+    ├── post.png
+    ├── put.png
+    ├── delete.png
+    └── project-structure.png
 ```
 
-Returns all students.
+---
 
-### POST
+# 📸 Project Screenshots
 
-```http
-POST /students
+## 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+---
+
+## 💻 Flask Server Running
+
+![Terminal](screenshots/terminal.png)
+
+---
+
+## 📥 GET API Response
+
+![GET](screenshots/get.png)
+
+---
+
+## ➕ POST API Response
+
+![POST](screenshots/post.png)
+
+---
+
+## ✏️ PUT API Response
+
+![PUT](screenshots/put.png)
+
+---
+
+## 🗑️ DELETE API Response
+
+![DELETE](screenshots/delete.png)
+
+---
+
+## 📂 Project Structure
+
+![Project Structure](screenshots/project-structure.png)
+
+---
+
+# 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/students` | Get all students |
+| POST | `/students` | Add a new student |
+| PUT | `/students/<id>` | Update student details |
+| DELETE | `/students/<id>` | Delete student |
+
+---
+
+# 🧾 Sample JSON
+
+### POST Request
+
+```json
+{
+  "id": 1,
+  "name": "Vikram Singh",
+  "branch": "CSE",
+  "semester": 5
+}
 ```
 
-Adds a new student.
+### Response
 
-### PUT
-
-```http
-PUT /students/<id>
+```json
+{
+  "message": "Student Added Successfully"
+}
 ```
 
-Updates student details.
+---
 
-### DELETE
+# ⚙️ Installation
 
-```http
-DELETE /students/<id>
-```
-
-Deletes a student.
-
-## ▶️ Installation
-
-Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/pariharvikki21-ctrl/Student-Management-REST-API.git
 ```
 
-Go to project folder
+### Go to Project Folder
 
 ```bash
 cd Student-Management-REST-API
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run
+### Run Application
 
 ```bash
 python app.py
 ```
 
-Server
+Server will start on:
 
-```
+```text
 http://127.0.0.1:5000
 ```
 
 ---
 
-## 👨‍💻 Author
+# 🧪 Testing
+
+The API can be tested using:
+
+- Postman
+- Thunder Client
+- Browser (GET Request)
+
+---
+
+# 💡 Learning Outcomes
+
+During this project I learned:
+
+- Python Programming
+- Flask Framework
+- SQLite Database
+- REST API Development
+- CRUD Operations
+- JSON Handling
+- API Testing using Postman
+- Git & GitHub
+- Backend Development Basics
+
+---
+
+# 🔮 Future Improvements
+
+- User Authentication
+- JWT Login
+- Password Encryption
+- Search Student
+- Pagination
+- Swagger API Documentation
+- MySQL Database Support
+- Docker Deployment
+
+---
+
+# 👨‍💻 Author
 
 **Vikram Singh**
 
-GitHub:
-https://github.com/pariharvikki21-ctrl
+🎓 Diploma in Computer Science Engineering
+
+📍 Uttarakhand, India
+
+GitHub: https://github.com/pariharvikki21-ctrl
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to ⭐ Star this repository.
