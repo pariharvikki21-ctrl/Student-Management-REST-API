@@ -61,8 +61,7 @@ Student_Api/
 
 ## 💻 Flask Server Running
 
-![Terminal](Screenshots/terminal.png)
-
+![Terminal](Screenshots/Terminal.png)
 ---
 
 ## 📥 GET API Response
