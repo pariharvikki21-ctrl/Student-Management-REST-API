@@ -1,6 +1,6 @@
 # 🎓 Student Management REST API
 
-A simple and efficient **Student Management REST API** built using **Python, Flask, and SQLite**. This project performs CRUD (Create, Read, Update, Delete) operations on student records and returns responses in JSON format.
+A **Student Management REST API** developed using **Python, Flask, and SQLite**. This project allows users to perform **CRUD (Create, Read, Update, Delete)** operations on student records using REST APIs. All student data is stored in an SQLite database and tested using Postman.
 
 ---
 
@@ -12,33 +12,34 @@ A simple and efficient **Student Management REST API** built using **Python, Fla
 - 🗑️ Delete Student
 - 💾 SQLite Database Integration
 - 🔄 RESTful API
-- 📦 JSON Response
+- 📦 JSON Responses
 - 🧪 API Testing using Postman
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python 3
 - Flask
 - SQLite
 - Postman
 - VS Code
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-Student-Management-REST-API/
+Student_Api/
 │
 ├── app.py
 ├── students.db
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── screenshots/
+└── Screenshots/
     ├── home.png
     ├── terminal.png
     ├── get.png
@@ -54,43 +55,43 @@ Student-Management-REST-API/
 
 ## 🏠 Home Page
 
-![Home](screenshots/home.png)
+![Home](Screenshots/home.png)
 
 ---
 
 ## 💻 Flask Server Running
 
-![Terminal](screenshots/terminal.png)
+![Terminal](Screenshots/terminal.png)
 
 ---
 
 ## 📥 GET API Response
 
-![GET](screenshots/get.png)
+![GET](Screenshots/get.png)
 
 ---
 
 ## ➕ POST API Response
 
-![POST](screenshots/post.png)
+![POST](Screenshots/post.png)
 
 ---
 
 ## ✏️ PUT API Response
 
-![PUT](screenshots/put.png)
+![PUT](Screenshots/put.png)
 
 ---
 
 ## 🗑️ DELETE API Response
 
-![DELETE](screenshots/delete.png)
+![DELETE](Screenshots/delete.png)
 
 ---
 
 ## 📂 Project Structure
 
-![Project Structure](screenshots/project-structure.png)
+![Project Structure](Screenshots/project-structure.png)
 
 ---
 
@@ -105,9 +106,9 @@ Student-Management-REST-API/
 
 ---
 
-# 🧾 Sample JSON
+# 📝 Sample JSON
 
-### POST Request
+## POST Request
 
 ```json
 {
@@ -118,7 +119,7 @@ Student-Management-REST-API/
 }
 ```
 
-### Response
+## Success Response
 
 ```json
 {
@@ -130,33 +131,33 @@ Student-Management-REST-API/
 
 # ⚙️ Installation
 
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/pariharvikki21-ctrl/Student-Management-REST-API.git
 ```
 
-### Go to Project Folder
+## Go to Project Folder
 
 ```bash
 cd Student-Management-REST-API
 ```
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Application
+## Run the Application
 
 ```bash
 python app.py
 ```
 
-Server will start on:
+Server will start at:
 
-```text
+```
 http://127.0.0.1:5000
 ```
 
@@ -172,7 +173,7 @@ The API can be tested using:
 
 ---
 
-# 💡 Learning Outcomes
+# 🎯 Learning Outcomes
 
 During this project I learned:
 
@@ -184,14 +185,15 @@ During this project I learned:
 - JSON Handling
 - API Testing using Postman
 - Git & GitHub
-- Backend Development Basics
+- Backend Development
 
 ---
 
 # 🔮 Future Improvements
 
 - User Authentication
-- JWT Login
+- Login System
+- JWT Authentication
 - Password Encryption
 - Search Student
 - Pagination
@@ -209,10 +211,14 @@ During this project I learned:
 
 📍 Uttarakhand, India
 
-GitHub: https://github.com/pariharvikki21-ctrl
+GitHub:
+https://github.com/pariharvikki21-ctrl
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
+If you found this project helpful, please consider giving it a **Star ⭐** on GitHub.
+
+Thank you for visiting this repository!
 If you like this project, don't forget to ⭐ Star this repository.
